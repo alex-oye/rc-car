@@ -5,6 +5,7 @@
 #include <linux/i2c-dev.h>
 #include <i2c/smbus.h>
 #include <unistd.h>
+#include "pca9685.h"
 
 #define MODE1 0x00
 #define PCA9685_PRESCALE 0xFE
