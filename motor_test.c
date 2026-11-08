@@ -26,6 +26,8 @@ esc_startup(file);
 usleep(200000);
 esc_forward(file);
 sleep(2);
+esc_reverse(file);
+sleep(1);
 esc_neutral(file);
 close(file);
 return 0;

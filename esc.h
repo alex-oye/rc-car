@@ -7,4 +7,6 @@ int esc_forward(int file);
 
 int esc_startup(int file);
 
+int esc_reverse(int file);
+
 #endif
