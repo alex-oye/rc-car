@@ -2,7 +2,7 @@
 #include "steering.h"
 
 #define STEERING_LEFT_COUNT 270
-#define STEERING_RIGHT_COUNT 345
+#define STEERING_RIGHT_COUNT 390
 #define STEERING_CENTER_COUNT 335
 
 int steering_left(int file) {

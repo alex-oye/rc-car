@@ -3,8 +3,8 @@
 
 #define ESC_NEUTRAL_COUNT 333
 #define ESC_STARTUP_COUNT 400
-#define ESC_REVERSE_COUNT 295
-#define ESC_FORWARD_COUNT 380
+#define ESC_REVERSE_COUNT 305
+#define ESC_FORWARD_COUNT 375
 
 
 int esc_neutral(int file) {
