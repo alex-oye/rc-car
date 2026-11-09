@@ -4,7 +4,7 @@
 #define ESC_NEUTRAL_COUNT 333
 #define ESC_STARTUP_COUNT 400
 #define ESC_REVERSE_COUNT 290
-#define ESC_FORWARD_COUNT 376
+#define ESC_FORWARD_COUNT 385
 
 
 int esc_neutral(int file) {

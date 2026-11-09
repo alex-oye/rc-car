@@ -33,6 +33,8 @@ int main(void) {
         return 1;
     }
 
+    sleep(2);
+
     if (steering_center(file) < 0) {
         printf("Failed to center steering\n");
         close(file);
@@ -216,9 +218,8 @@ int main(void) {
                      * from neutral.
                      */
                     if (driveState != 1) {
-
-                        esc_startup(file);
                         usleep(500000);
+                        esc_startup(file);
                     }
 
                     esc_forward(file);
@@ -273,6 +274,8 @@ int main(void) {
      */
     esc_neutral(file);
     steering_center(file);
+    
+    sleep(1);
 
     tcsetattr(STDIN_FILENO, TCSANOW, &oldTerm);
 
